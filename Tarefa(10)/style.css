@@ -1,0 +1,117 @@
+header{
+    background: orange;
+    padding: 10px 0;
+}
+
+img{
+	width: 20%;
+}
+
+.logo{
+	position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.abobora2{
+	width: 25%;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: floralwhite;
+    text-decoration: underline;
+    background-color: black;
+}
+
+#banner{
+    width: 20%;  
+}
+
+.principal{
+    background: #447ab9;
+    padding: 30px;
+}
+
+.titulo-centralizado{
+	font-style: oblique;
+	font-family: monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#missao{
+    font-size: 20px;
+}
+
+p{
+    text-align: center;
+    padding: 15px;
+}
+
+em{
+    font-style: italic;
+}
+
+strong{
+    font-weight: bold;
+    font-style: italic;
+    color: darkorange;
+}
+
+.aboboras{
+    padding: 20px;
+}
+
+.titulo-aboboras{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    height: 50px;
+}
+
+.listaaboboras{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin: 20px 200px 50px;
+}
+
+.itens{
+    font-style: italic;
+    font-size: 20px;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 13px;
+    margin: 20px 0 0;
+    background-color: orangered;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercício 1</title>
+</head>
+<body>
+<fieldset action="#" method="post">
+	<form>
+	<legend>Formulário de Cadastro:</legend>
+	<label for="email">Digite seu email:</label>
+	<input type="email" id="email">
+	<label for="pass">Digite uma senha:</label>
+	<input type="password" name="senha" id="pass">
+	<br><br>
+	<label for="masc">Masculino
+	<input type="radio" name="sexo" value="M" id="masc">
+	</label>
+	<label for="fem">Feminino
+	<input type="radio" name="sexo" value="F" id="fem">
+	</label>
+	<br><br>
+	<label for="data">Data de nascimento:</label>
+	<input type="date" id="data" min="1900-01-01" max="2022-09-27">
+	</label>
+	<input type="checkbox" value="ab">Lembrar dados?<br>
+	<br>
+	<label>Quais linguagens você conhece?</label><br>
+	<select name="interesses" id="inte" multiple size="5">
+		<option value="inte">HTML</option>
+		<option value="inte">CSS</option>
+		<option value="inte">JavaScript</option>
+		<option value="inte">Python</option>
+		<option value="inte">C</option>
+	</select>
+	<br><br>
+	<input type="submit" value="Enviar">
+	<input type="reset" name="reset" value="Resetar">
+	</form>
+</fieldset>
+</body>
+</html>

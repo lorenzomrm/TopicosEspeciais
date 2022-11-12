@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercício 2</title>
+</head>
+<body>
+<form>
+<fieldset action="#" method="post">
+	<legend>Outro formulário:</legend>
+	<label for="email">Digite seu email:</label>
+	<input type="email" id="email">
+	<label for="pass">Digite sua senha:</label>
+	<input type="password" name="senha" id="pass">
+	<br><br>
+	<label for="masc">Masculino
+	<input type="radio" name="sexo" value="M" id="masc">
+	</label>
+	<label for="fem">Feminino
+	<input type="radio" name="sexo" value="F" id="fem">
+	</label>
+	<br><br>
+	<label for="data">Data de nascimento:</label>
+	<input type="date" id="data" min="1900-01-01" max="2022-09-27">
+	<label for="hour">Selecione a hora atual:
+	<input type="time" name="hour" id="hour">
+	</label>
+	<label style="margin-left: 80px;" for="filhos">Possui filhos?
+	<input type="checkbox" name="" id="filhos">
+	</label>
+</fieldset>
+
+<fieldset>
+	<select name="linguagens" id="ling" multiple size="3">
+		<option value="ling">HTML</option>
+		<option value="ling">CSS</option>
+		<option value="ling">JavaScript</option>
+	</select>
+</fieldset>
+<br>
+<input type="submit" value="Enviar">
+<input type="reset" name="reset" value="Resetar">
+</form>
+</body>
+</html>

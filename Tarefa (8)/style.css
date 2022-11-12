@@ -1,0 +1,73 @@
+		p{
+			font-size: 15px;
+		}
+		.Principal{
+			background-color:orange;
+			border: 1px;
+			border-style: groove;
+			border-color: black;
+		}
+		#minha_tabela{
+			color: gold;
+		}
+		header{
+			background: lightblue;
+			border: 1px;
+			border-style: groove;
+			border-color: black;
+			padding-top: 10px;
+			
+		}
+		nav{
+			background: lightblue;
+			border: 1px;
+			border-style: groove;
+			border-color: black;
+			margin-top: 50px;
+			padding-bottom: 8px;
+		}
+		article{
+			background: lightblue;
+			border: 1px;
+			border-style: groove;
+			border-color: black;
+			width: 1300px;
+			padding-bottom: 80px;
+		}
+		aside{
+			width: 30px;
+			background: lightblue;
+			border: 1px;
+			border-style: groove;
+			border-color: black;
+			align-content: right;
+			padding-top: 10px;
+			margin-left: 1400px;
+			padding-bottom: 120px;
+			padding-right: 200px;
+			padding-left: 200px;
+		}
+		footer{
+			background: lightblue;
+			border: 1px;
+			border-style: groove;
+			border-color: black;
+			padding-bottom: 8px;
+			font-size: 20px;
+		}
+		table{
+			text-align: center;
+			border: 5px solid lightblue;
+			font-family: initial;
+			background-color: cornflowerblue;
+			width: 250px;
+			height: 250px;
+			border-collapse: collapse;
+		}
+
+		th{
+			border: 3px solid lightblue;
+		}
+		td{
+			border: 1px solid lightblue;
+		}

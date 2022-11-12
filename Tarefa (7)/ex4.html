@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercício 4</title>
+</head>
+<body>
+<form>
+<fieldset action="#" method="post">
+	<legend>Dados pessoais</legend>
+	<label for="text">Email:</label>
+	<input type="email" placeholder="digite um email válido" id="text"><br>
+	<label for="filhos">Número de filhos:
+	<input type="number" name="" id="filhos" min="0" max="100">
+	</label><br>
+	<label for="data">Data de nascimento:</label>
+	<input type="date" id="data" min="1900-01-01" max="2022-09-27"><br><br>
+	<label>Sexo:</label><br><br>
+	<label for="masc">
+	<input type="radio" name="sexo" value="M" id="masc">Masculino
+	</label>
+	<label for="fem">
+	<input type="radio" name="sexo" value="F" id="fem">Feminino
+	</label>
+	<br>
+	<label>Estado:</label>
+		<select name="Estado" id="est">
+		<option value="est">Selecione</option>
+		<option value="est">SC</option>
+		<option value="est">PR</option>
+		<option value="est">RS</option>
+		<option value="est">Outro</option>
+	</select>
+</fieldset>
+
+<fieldset>
+	<legend>Área de Interesse</legend>
+	<label for="ling"></label>
+	<input type="checkbox">HTML
+	<input type="checkbox">CSS
+	<input type="checkbox">JavaScript
+</fieldset>
+
+<fieldset>
+	<legend>Mensagem</legend>
+	<textarea rows="12" cols="35"></textarea>
+	<textarea rows="12" cols="35"readonly>Aqui entra o texto do contrato que precisa ser aceito</textarea>
+	<label for="lembrar"></label>
+    <input type="checkbox" id="lembrar" checked>Li e aceito
+    <input type="range" name="" min="0" max="70">
+    <label for="hour"></label>
+	<input type="time" name="hour" id="hour">
+	<input type="color" name="">
+	<select name="linguagens" id="ling" multiple size="4">
+		<option value="ling">Frontend</option>
+		<option value="ling">Backend</option>
+		<option value="ling">Fullstack</option>
+		<option value="ling">Nenhuma das opções</option>
+	</select>
+</fieldset>
+<br>
+<input type="submit" value="Enviar">
+<input type="button" value="Botão">
+<input type="reset" name="reset" value="Limpar">
+</form>
+</body>
+</html>

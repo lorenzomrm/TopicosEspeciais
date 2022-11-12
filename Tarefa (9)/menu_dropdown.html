@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Menu Dropdown</title>
+	<style type="text/css">
+		*{margin: 0; padding: 0;}
+		p{
+			font-size: 15px;
+		}
+		header{
+			background: lightblue;
+			border: 1px;
+			border-style: groove;
+			border-color: black;
+			padding-top: 10px;
+			
+		}
+		nav{
+			background: lightblue;
+			border: 1px;
+			border-style: groove;
+			border-color: black;
+			margin-top: 50px;
+			padding-bottom: 8px;
+		}
+		article{
+			background: lightblue;
+			border: 1px;
+			border-style: groove;
+			border-color: black;
+			width: 1300px;
+			padding-bottom: 80px;
+		}
+		aside{
+			width: 30px;
+			background: lightblue;
+			border: 1px;
+			border-style: groove;
+			border-color: black;
+			align-content: right;
+			padding-top: 10px;
+			margin-left: 1400px;
+			padding-bottom: 120px;
+			padding-right: 200px;
+			padding-left: 200px;
+		}
+		footer{
+			background: lightblue;
+			border: 1px;
+			border-style: groove;
+			border-color: black;
+			padding-bottom: 8px;
+			font-size: 20px;
+		}
+		table{
+			text-align: center;
+			border: 5px solid lightblue;
+			font-family: initial;
+			background-color: cornflowerblue;
+			width: 250px;
+			height: 250px;
+			border-collapse: collapse;
+		}
+
+		th{
+			border: 3px solid lightblue;
+		}
+		td{
+			border: 1px solid lightblue;
+		}
+		body{
+			font-family: arial, helvetica, sans-serif;
+			padding-top: 30px;
+			padding-left: 20px;
+			font-size: 25px;
+		}
+		.menu{
+			box-shadow: black;
+			text-shadow: 1px 1px white;
+			margin-top: 20px;
+			list-style: none;
+			border:1px solid goldenrod;
+			float:left;
+		}
+		.menu li{
+			position:relative;
+			float:left;
+			border-right:1px solid #c0c0c0;
+		}
+		.menu li a {
+			color:black;
+			text-decoration:none;
+			padding:5px 10px;
+			display:block;
+			}
+		.menu li a:hover{
+			background:black;
+			color:#fff;
+			-moz-box-shadow:0 3px 10px 0 #CCC;
+			-webkit-box-shadow:0 3px 10px 0 #ccc;
+			text-shadow:0px 0px 5px #fff;
+		}
+		.menu li ul{
+			position:absolute;
+			top:25px;
+			left:0;
+			background-color:black;
+			display:none;
+		}
+		.menu li:hover ul, .menu li.over ul {
+			display:block;
+		}
+		.menu li ul li{
+			border:1px solid #c0c0c0;
+			display:block;
+			width:150px;
+		}
+	</style>
+	<link rel="icon" type="image/x-icon" href="https://icons.iconarchive.com/icons/chanut/role-playing/512/Treant-Tree-icon.png">
+</head>
+<body>
+	<header>
+	<nav></nav>
+	</header>
+	<div>
+	<article>
+	<section>		
+		<ul class="menu">
+			<li><a href="#">Página Inicial</a></li>
+			<li><a href="#">Outras Coisas</a></li>
+			<li><a href="#">Alguns Serviços</a>
+		<ul>
+			<li><a href="#">Web Design</a></li>
+			<li><a href="#">Consultoria</a></li>
+			<li><a href="#">Aulas</a></li>
+		</ul>
+			</li>
+			<li><a href="#">Contato</a></li>
+		</ul></section>
+	</article>
+	<aside></aside>
+	</div>
+	<footer></footer>
+</body>
+</html>
